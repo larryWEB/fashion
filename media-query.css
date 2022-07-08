@@ -1,0 +1,771 @@
+@media (min-width: 375px) {
+
+  #heading-1{
+      width:100%;
+  }
+
+.logo-name{
+text-align:center;
+margin-top:25px;
+position:relative;
+color:black;
+font-style:italic;
+font-size:35px;
+}
+
+  
+  .hamburger-menu{
+margin-left:-95px;
+}
+
+  
+.line{
+width:28px;
+height:2px;
+background-color:#df1b1f;
+}
+
+.two{
+width:22px;
+}
+
+.three{
+width:15px;
+}
+  
+  #heading-2{
+  width:100%; 
+   }
+  
+  #slider,.slides,.hero-img{
+      width:100%;
+   height:100%;
+  }
+  
+  .chat{
+     margin-left:180px;
+  }
+  
+      #about{
+          width:375px;
+      }
+
+  .about-us,
+.about-us-text,
+.why-us,
+.why-us-text,
+  .why
+{
+padding:2px;
+margin-right:30px;
+margin-left:20px;
+margin-top:20px;
+}
+
+ 
+.style-price{
+display:flex;
+gap:60px;
+}  
+
+  
+  .hash{
+     display:none
+  }
+  
+  .rules{
+      width:300px;
+      margin-left:27px;
+  }
+
+.icon{
+font-size:28px;
+  margin-top:-5px;
+}
+  
+  .rules-card{
+      margin-left:23px;
+      gap:10px;
+  }
+  
+  #service{
+      row-gap:40px;
+      margin-left:-23px;
+      position:relative;
+      top:30px;
+  }
+      
+  .service-img{
+       width:300px;
+     margin-left:-23px;
+      height:200px;
+   }
+
+#testimonial{
+  top:100px;
+ height:500px
+}
+
+.test-img{
+ width:100px;
+ height:100px;
+}
+ 
+  .test-head{
+     text-decoration:none;
+    margin-left:40px;
+    font-size:20px;
+  }
+
+  .spin{
+    margin-left:35px;
+  }
+
+.test-comment{
+  font-size:18px;
+}
+  
+footer{
+ top:130px;
+
+} 
+      
+  }
+  /* End of style rules for min 375 screen*/ 
+
+
+@media (min-width: 425px) {
+
+
+  #heading-1{
+      width:100%;
+  }
+
+#heading-2{
+  width:100%; 
+   }
+
+#slider,.slides,.hero-img{
+      width:100%;
+height:100%;
+  }
+  
+.chat{
+     margin-left:250px;
+  }
+  
+#about{
+          width:425px;
+      }
+
+  .about-us,
+.about-us-text,
+.why-us,
+.why-us-text,
+  .why
+{
+padding:2px;
+margin-right:30px;
+margin-left:30px;
+margin-top:20px;
+font-size:15px;
+}
+
+.style-price{
+display:flex;
+gap:90px;
+}
+
+.rules{
+      width:350px;
+      margin-left:35px;
+background-color:rgba(195, 10, 10, 0.591);
+  }
+
+.service-img{
+       width:350px;
+      margin-left:-38px;
+      height:250px;
+   }
+
+#service{
+      row-gap:110px;
+      margin-left:-23px;
+      position:relative;
+      top:100px;
+  }
+
+.service-title{
+font-size:30px;
+margin-left:15px;
+font-weight:bold;
+}
+
+hr{
+width:140px;
+height:8px;
+}
+
+.text-card{
+color:whitesmoke;
+position:absolute;
+display:grid;
+gap:15px;
+margin-top:-190px;
+
+}
+
+.service-details{
+padding:15;
+font-size:17px;
+font-weight:400;
+margin-right:40px;
+}
+
+#testimonial{
+ top:400px;
+}
+
+#testimonial-slider{
+ margin-top:0px;
+}
+
+ .spin{
+  margin-left:60px;
+ }
+
+.test-comment{
+ font-size:19px;
+}
+
+.test-head{
+ margin-left:60px;
+}
+
+ 
+.comment-head{
+  font-size:20px;
+}
+ 
+ 
+footer{
+ top:500px;
+}
+
+ 
+}
+
+/* END OF STYLE RULES FOR SCREEN 425 */
+
+@media (max-width: 600px) {
+#big-slide,
+ .slide-big{
+ visibility:hidden;
+}
+
+}
+
+
+@media (min-width: 601px) {
+#slider,
+ .slides{
+ visibility:hidden;
+}
+
+ #big-slide,
+ .slide-big{
+  z-index:-7;
+  position:relative;
+ }
+ 
+}
+
+
+
+
+@media (min-width: 768px) {
+
+  .hamburger-menu{
+margin-left:-255px;
+   gap:8px;
+}
+
+#slider,
+ .slides{
+ display:none;
+}
+
+
+ 
+.line{
+width:40px;
+height:3px;
+background-color:#df1b1f;
+}
+
+.two{
+width:28px;
+}
+
+.three{
+width:18px;
+}
+ 
+.hidden-nav{
+visibility: hidden;
+z-index:1;
+display:flex;
+flex-direction:column;
+background-color:#ffffffc2;
+width:320px;
+height:410;
+position:fixed;
+top:84px;
+gap:5px;
+transform: translateX(-100%);
+transition: 0.5s ease-in-out;
+}
+
+.active{
+visibility: visible;
+transform: translateX(0);
+}
+
+
+.nav-link{
+position:relative;
+top:10px;
+font-weight:500;
+margin-left:30px;
+width:80%;
+line-height:2.5;
+color:red;
+border-bottom:1px solid #8080805c;
+}
+
+#about{
+          width:768px;
+      }
+
+.who-we-are{
+ font-size:25px;
+}
+
+
+ 
+#pricing{
+z-index:-10;
+}
+
+#pricing h3{
+ font-size:27px;
+ position:relative;
+ top:35px;
+
+}
+
+ 
+.style-price-card{
+position:relative;
+display:flex;
+justify-content:center;
+gap:60px;
+top:70px;
+
+}
+
+.style-price{
+display:flex;
+gap:30px;
+}
+
+
+.rules{
+display:grid;
+font-size:14px;
+background-color:white;
+width:600px;
+margin-left:83px;
+position:relative;
+height:260px;
+top:50px;
+ background-color:rgba(195, 10, 10, 0.591);
+}
+
+li{
+margin:15px;
+}
+
+ul{
+margin:15px;
+
+}
+
+.ul-title{
+margin-left:10px;
+
+}
+
+
+
+.rules-card{
+margin-left:35px;
+margin-top:17px;
+font-weight:600;
+display:flex;
+gap:5px;
+}
+
+
+#service{
+background-color:white;
+display:flex;
+flex-direction:column;
+row-gap:35px;
+height:650px;
+justify-content:center;
+align-items:center;
+position:relative;
+z-index:-10;
+position:relative;
+top:400px;
+}
+
+.service-img{
+width:650px;
+height:300px;
+filter:brightness(30%);
+
+}
+
+.box{
+background-color:white;
+width:650px;
+height:300px;
+margin-left:95px;
+}
+
+
+.text-card{
+color:whitesmoke;
+position:absolute;
+display:grid;
+gap:10px;
+margin-top:-200px;
+}
+
+
+#testimonial{
+  top:800px;
+  
+}
+
+  .test-bg-img{
+    filter:brightness(20%);
+  }
+
+  
+  .test-img,
+.comment-head,
+.test-comment{
+  color:black;
+}
+
+.test-head{
+  font-size:28px;
+ margin-left:175px;
+ }
+ 
+
+ .comment-head{
+  font-size:24px;
+ }
+
+.test-comment{
+  margin-right:30px;
+  margin-left:30px;
+}
+  
+  .spin{
+text-align:center;
+  width:500px;
+ margin-top:40px;
+}
+
+
+
+#testimonial-slider{
+ width:500px;
+  margin-left:60px;
+ margin-top:70px;
+}
+  
+
+footer{
+  top:900px;
+}
+
+
+
+  
+}
+
+/* END OF STYLE RULES FOR SCREEN 768 */
+
+
+@media (min-width: 1024px) {
+
+.hamburger-menu{
+visibility:hidden;
+}
+
+.logo-name{
+text-align:center;
+margin-top:25px;
+position:relative;
+margin-right:650px;
+font-size:38px;
+}
+
+#slider,
+ .slides{
+ visibility:hidden;
+}
+
+
+ 
+.letter-T{
+color:#d82423;
+font-size:45px;
+font-family:emoji;
+}
+
+.logo-name::after{
+content:"styled by";
+font-size:12px;
+position:relative;
+top:-32px;
+right:64px;
+}
+
+
+
+.country{
+display:none;
+gap:2px;
+margin-left:5px;
+position:relative;
+top:5px;
+}
+
+#nav-bar{
+z-index:1;
+}
+
+.hidden-nav{
+visibility: visible;
+display:flex;
+flex-direction:row;
+width:0;
+position:fixed;
+top:23px;
+gap:5px;
+transform: translateY(0);
+left:370px;
+}
+
+.social{
+display:none;
+
+}
+.nav-link{
+position:static;
+top:-20px;
+font-weight:500;
+gap:30px;
+width:auto;
+height:auto;
+color:red;
+}
+
+a{
+text-decoration:none;
+color:#86878b
+}
+
+.active{
+visibility: visible;
+transform: translateY(0);
+}
+
+.about-container{
+  margin-top:50px;
+}
+
+.why-container{
+  display:flex;
+  position:relative;
+  top:80px;
+}
+
+  .why-us-text,
+ .about-us,
+.about-us-text,
+.why-us,
+  .why,
+  .why-container
+{
+padding:2px;
+margin-right:-30px;
+margin-left:-20px;
+margin-top:-20px;
+}
+
+.who-we-are{
+  text-align:center;
+}
+
+.about-us-card{
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+  position:relative;
+  margin-left:100px;
+}
+
+.about-us-text{
+  margin-right:-200px;
+}
+  
+.why-us-card{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  position:relative;
+   margin-left:100px;
+  top:70px;
+}
+
+  .why-us-text{
+    margin-right:-280px;
+  }
+
+.why-container{
+  position:relative;
+  gap:100px;
+  top:160px;
+  margin-left:200px;
+}
+
+  .why{
+    margin-left:-90px;
+    margin-right:-90px;
+  }
+
+
+  #pricing{
+    top:150px;
+    position:relative;
+  }
+
+.foot-logo-name{
+  font-size:35px;
+}
+ 
+.address{
+ font-size:25px;
+ margin-top:15px;
+}
+ 
+.connect-card{
+ display:flex;
+ justify-content:space-evenly;
+gap:70px;
+}
+
+
+ 
+.call-text{
+ font-size:18px;
+}
+ 
+.number{
+ font-size:22px;
+}
+
+
+
+ .rules{
+  width:850px
+ }
+
+
+ #testimonial-slider{
+  margin-left:180px;
+ }
+
+.test-head{
+ margin-left:280px;
+ }
+ 
+}
+  
+/* END OF STYLE RULES FOR SCREEN 1024 */
+
+
+
+@media (min-width: 1321px) {
+
+.logo-name{
+text-align:center;
+margin-top:25px;
+position:relative;
+margin-right:900px;
+font-size:38px;
+}
+
+  
+.hidden-nav{
+visibility: visible;
+display:flex;
+flex-direction:row;
+width:0;
+position:fixed;
+top:23px;
+gap:5px;
+left:650px;
+}
+
+  
+}
+
+/* END OF STYLE RULES FOR SCREEN 1321 */
+
+
+
+
+@media (min-width: 1440px) {
+
+.logo-name{
+text-align:center;
+margin-top:25px;
+position:relative;
+margin-right:1020px;
+font-size:38px;
+}
+
+  
+.hidden-nav{
+visibility: visible;
+display:flex;
+flex-direction:row;
+width:0;
+position:fixed;
+top:23px;
+gap:5px;
+left:790px;
+}
+
+
+}
+/* END OF STYLE RULES FOR SCREEN 1440 */
